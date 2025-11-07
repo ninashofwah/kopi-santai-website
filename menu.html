@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Kopi Santai</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Kopi Santai</h1>
+        <p><q>Nikmati Setiap Tegukan</q></p>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="menu.html" class="active">MENU</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="reservation.html">RESERVATION</a></li>
+            </ul>
+        </nav>
+        </header>
+
+    <nav class="menu-filter">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="coffee">Coffee</button>
+        <button data-filter="non-coffee">Non-Coffee</button>
+        <button data-filter="food">Food</button>
+        <button data-filter="snacks">Snacks</button>
+    </nav>
+
+  <section class="menu-section">
+    <h2>Daftar Menu Lengkap</h2>
+
+    <div class="menu-grid">
+
+      <article class="menu-card" data-category="coffee">
+        <figure>
+          <img src="images/espresso.jpg" alt="Espresso">
+          <figcaption><mark>Best Seller</mark></figcaption>
+        </figure>
+        <h3>Espresso</h3>
+        <p>Kopi hitam pekat dengan aroma kuat dan rasa autentik Italia.</p>
+        <p class="price">Rp25.000</p>
+      </article>
+
+      <article class="menu-card" data-category="coffee">
+        <figure>
+          <img src="images/cappuccino.jpg" alt="Cappuccino">
+          <figcaption>Cappuccino</figcaption>
+        </figure>
+        <h3>Cappuccino</h3>
+        <p>Kombinasi seimbang antara kopi, susu, dan busa susu lembut.</p>
+        <p class="price">Rp28.000</p>
+      </article>
+
+      <article class="menu-card" data-category="coffee">
+        <figure>
+          <img src="images/latte.jpg" alt="Caffe Latte">
+          <figcaption>Caffe Latte</figcaption>
+        </figure>
+        <h3>Caffe Latte</h3>
+        <p>Perpaduan sempurna antara espresso dan susu lembut.</p>
+        <p class="price">Rp30.000</p>
+      </article>
+
+      <article class="menu-card" data-category="coffee">
+        <figure>
+          <img src="images/americano.jpg" alt="Americano">
+          <figcaption>Americano</figcaption>
+        </figure>
+        <h3>Americano</h3>
+        <p>Kopi hitam dengan cita rasa ringan namun tetap kuat dan menyegarkan.</p>
+        <p class="price">Rp32.000</p>
+      </article>
+
+      <article class="menu-card" data-category="non-coffee">
+        <figure>
+          <img src="images/chocolate.jpg" alt="Hot Chocolate">
+          <figcaption><span class="tag new">New</span></figcaption>
+        </figure>
+        <h3>Hot Chocolate</h3>
+        <p>Cokelat panas yang manis dan creamy, cocok untuk semua suasana.</p>
+        <p class="price">Rp27.000</p>
+      </article>
+
+      <article class="menu-card" data-category="non-coffee">
+        <figure>
+          <img src="images/matcha.jpg" alt="Matcha Latte">
+          <figcaption>Matcha Latte</figcaption>
+        </figure>
+        <h3>Matcha Latte</h3>
+        <p>Perpaduan matcha Jepang dan susu lembut dengan aroma khas teh hijau.</p>
+        <p class="price">Rp29.000</p>
+      </article>
+
+      <article class="menu-card" data-category="non-coffee">
+        <figure>
+          <img src="images/tea.jpg" alt="Black Tea">
+          <figcaption>Black Tea</figcaption>
+        </figure>
+        <h3>Black Tea</h3>
+        <p>Teh hitam klasik dengan aroma harum dan rasa menenangkan.</p>
+        <p class="price">Rp20.000</p>
+      </article>
+
+      <article class="menu-card" data-category="food">
+        <figure>
+          <img src="images/pasta.jpg" alt="Creamy Pasta">
+          <figcaption>Creamy Pasta</figcaption>
+        </figure>
+        <h3>Creamy Pasta</h3>
+        <p>Pasta lembut dengan saus krim gurih dan keju leleh.</p>
+        <p class="price">Rp40.000</p>
+      </article>
+
+      <article class="menu-card" data-category="food">
+        <figure>
+          <img src="images/sandwich.jpg" alt="Club Sandwich">
+          <figcaption>Club Sandwich</figcaption>
+        </figure>
+        <h3>Club Sandwich</h3>
+        <p>Sandwich isi daging asap, telur, dan sayuran segar.</p>
+        <p class="price">Rp35.000</p>
+      </article>
+
+      <article class="menu-card" data-category="food">
+        <figure>
+          <img src="images/salad.jpg" alt="Fresh Salad">
+          <figcaption><mark>Best Seller</mark></figcaption>
+        </figure>
+        <h3>Fresh Salad</h3>
+        <p>Sayuran segar dengan dressing spesial yang menyegarkan.</p>
+        <p class="price">Rp30.000</p>
+      </article>
+
+      <article class="menu-card" data-category="snacks">
+        <figure>
+          <img src="images/cake.jpg" alt="Chocolate Cake">
+          <figcaption>Chocolate Cake</figcaption>
+        </figure>
+        <h3>Chocolate Cake</h3>
+        <p>Kue cokelat lembut dengan topping krim manis yang menggoda.</p>
+        <p class="price">Rp22.000</p>
+      </article>
+
+      <article class="menu-card" data-category="snacks">
+        <figure>
+          <img src="images/cookies.jpg" alt="Butter Cookies">
+          <figcaption>Butter Cookies</figcaption>
+        </figure>
+        <h3>Butter Cookies</h3>
+        <p>Kue kering renyah dengan aroma mentega yang khas.</p>
+        <p class="price">Rp18.000</p>
+      </article>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <address>
+        <strong>Kopi Santai</strong><br>
+        Jl. Kenangan No. 123, Bandung<br>
+        Telepon: 0812-3456-7890<br>
+        Email: <a href="mailto:info@kopisantai.com">info@kopisantai.com</a>
+      </address>
+
+      <div class="hours">
+        <h4>Jam Operasional</h4>
+        <p>Senin - Minggu: 08.00 - 22.00</p>
+      </div>
+    </div>
+
+    <p class="copyright">
+      &copy; 2025 Kopi Santai. All Rights Reserved.
+    </p>
+  </footer>
+
+</body>
+</html>

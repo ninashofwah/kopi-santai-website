@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff8f0;
+  color: #f0e8e8;
+}
+
+header {
+  background-color: #5c3d2e;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+header nav a:hover,
+header nav a.active {
+  text-decoration: underline;
+}
+
+.about-section {
+  background: linear-gradient(to bottom, #fff3e0, #ffe0b2);
+  padding: 255px 25px;
+  text-align: center;
+  background-image:  url(bgabout1.jpg);
+
+}
+
+.about-section h2 {
+  color: #f4e5de;
+  margin-bottom: 15px;
+}
+
+.about-section p {
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+.reservation-section {
+  background-image: url(bgreser.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 120px 25px;
+}
+
+.form-container {
+  background-color: rgba(189, 182, 182, 0.9);
+  max-width: 400px;
+  margin: auto;
+  padding: 55px;
+  border-radius: 20px;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #5c3d2e;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5c3d2e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #da9472;
+}
+
+footer {
+  background-color: #321406;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  header nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .form-container {
+    width: 90%;
+  }
+}

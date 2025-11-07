@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservasi - Kopi Santai</title>
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+  <header>
+    <h1>KOPI SANTAI</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">Tentang</a>
+      <a href="reservation.html" class="active">Reservasi</a>
+    </nav>
+  </header>
+
+  <section class="reservation-section">
+    <div class="form-container">
+      <h2>Formulir Reservasi</h2>
+      <form action="#" method="post">
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="tanggal">Tanggal Reservasi:</label>
+        <input type="date" id="tanggal" name="tanggal" required>
+
+        <label for="jumlah">Jumlah Orang:</label>
+        <input type="number" id="jumlah" name="jumlah" min="1" required>
+
+        <button type="submit">Kirim Reservasi</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kopi Santai.</p>
+  </footer>
+
+</body>
+</html>
